@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+.container {
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    background: palevioletred;
+}
+.button {
+    width: 100px;
+    height: 80%;
+    font-size: 50px;
+    margin: 4px;
+    border: none;
+    color: wheat;
+    cursor: pointer;
+    background: violet;
+}
+.button:hover {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background: pink;
+}
+.hasil {
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    text-align: center;
+    background: white;
+    opacity: 1;
+}
